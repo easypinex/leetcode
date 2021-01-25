@@ -10,6 +10,11 @@ Confused why the returned value is an integer but your answer is an array?
 Note that the input array is passed in by reference, which means a modification to the input array will be known to the caller as well.
 ... https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727
 */
+
+/**
+ * 記憶已經排序的位置, int nonDupIndex = 0;
+ * 遇到需要排序再++, if(needSort) nonDupIndex++;
+ */
 public class A_RemoveDupFromSorted {
     public static void main(String[] args) {
         int[] sortedArr = { 1, 1, 2, 2, 3 };
@@ -25,6 +30,6 @@ public class A_RemoveDupFromSorted {
                 nums[nonDupIndex] = nums[i];
             }
         }
-        return nonDupIndex+1;
+        return nonDupIndex + 1;
     }
 }

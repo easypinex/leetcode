@@ -25,6 +25,11 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 */
 
+/**
+ * 先處理後發生事件, 容易處理問題
+ * Buy > Sell
+ * if (Sell) .. else if (Buy)
+ */
 public class B_BestTimeBuyAndSellStock {
     public static void main(String[] args) {
         // int[] prices = { 7, 1, 5, 3, 6, 4 };
