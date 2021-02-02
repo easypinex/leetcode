@@ -37,7 +37,7 @@ public class C_RotateArray1 {
     public static void main(String[] args) {
         int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
         int k = 3;
-        new C_RotateArray().rotate(nums, k);
+        new C_RotateArray1().rotate(nums, k);
         System.out.println(Arrays.toString(nums));
     }
 

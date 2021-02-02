@@ -26,7 +26,7 @@ public class D_ContainsDuplicate1 {
 
     public static void main(String[] args) {
         int[] nums = {1,2,3,1};
-        boolean isDuplicate = new D_ContainsDuplicate().containsDuplicate(nums);
+        boolean isDuplicate = new D_ContainsDuplicate1().containsDuplicate(nums);
         System.out.println(isDuplicate);
     }
 

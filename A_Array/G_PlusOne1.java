@@ -1,6 +1,5 @@
 package A_Array;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 /*
@@ -30,7 +29,7 @@ Constraints:
 public class G_PlusOne1 {
     public static void main(String[] args) {
         int[] digits = { 9 };
-        System.out.println(Arrays.toString(new G_PlusOne().plusOne(digits)));
+        System.out.println(Arrays.toString(new G_PlusOne1().plusOne(digits)));
     }
 
     public int[] plusOne(int[] digits) {

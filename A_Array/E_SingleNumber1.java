@@ -29,7 +29,7 @@ public class E_SingleNumber1 {
 
     public static void main(String[] args) {
         int[] nums = { 4, 1, 2, 1, 2 };
-        System.out.println(new E_SingleNumber().singleNumber(nums));
+        System.out.println(new E_SingleNumber1().singleNumber(nums));
     }
 
     public int singleNumber(int[] nums) {

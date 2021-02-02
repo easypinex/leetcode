@@ -18,7 +18,7 @@ Minimize the total number of operations.
 public class H_MoveZeros1 {
     public static void main(String[] args) {
         int[] nums = { 0, 1, 0, 3, 12 };
-        new H_MoveZeros().moveZeroes(nums);
+        new H_MoveZeros1().moveZeroes(nums);
         System.out.println(Arrays.toString(nums));
     }
 
