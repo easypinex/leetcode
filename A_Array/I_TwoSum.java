@@ -20,11 +20,11 @@ Example 3:
 Input: nums = [3,3], target = 6
 Output: [0,1]
 */
-public class J_TwoSum {
+public class I_TwoSum {
     public static void main(String[] args) {
         int[] nums = new int[] {2,7,11,15};
         int target = 9;
-        System.out.println(Arrays.toString(new J_TwoSum().twoSum(nums, target)));
+        System.out.println(Arrays.toString(new I_TwoSum().twoSum(nums, target)));
     }
 
     public int[] twoSum(int[] nums, int target) {
