@@ -19,9 +19,12 @@ Output: [[1]]
 Example 4:
 Input: matrix = [[1,2],[3,4]]
 Output: [[3,1],[4,2]]
+
+https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/770/
 */
 
 // 迴圈的限制, 可以利用 len/2 以及 (len+1)/2 控制區域, 
+// 雙（巢狀)迴圈 , 外圈是y , 內圈是x
 // 對於空間上的旋轉, 可以先從起點附近的x,y關係嘗試 , 基本上嘗試過單數及雙數 4x4, 3,3 即可解決
 // 對於紙本考試, 可能需要硬背
 public class K_RotateImage {
